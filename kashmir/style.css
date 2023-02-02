@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.parallax-text{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15vw;
+    font-style: italic;
+    top: 200px;
+}
+.parallax-text::after{
+    content: attr(text);
+    position: absolute;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    color: transparent;
+    -webkit-text-stroke: 0.15w black;
+
+
+}
+img{
+    width: 20vw;
+    animation: kashmirAnimation
+    2s cubic-bezier(0.25,1,0.5,1) infinite alternate;
+
+}
+@keyframes kashmirAnimation{
+    0%, 10%{
+        transform: translate(100vw,0) rotate(15deg);
+    }
+    90%, 100%{
+        transform: translate(-5vw, -5vw) rotate(-30deg);
+    }
+}

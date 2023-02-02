@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+
+.wrapper{
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.div-img{
+    width: 300px;
+    height: 300px;
+    background-color: lightcoral;
+    position: relative;
+    cursor: pointer;
+   
+    
+}
+
+.div-img:hover{
+    width: 300px;
+    height: 300px;
+    background-color: lightcoral;
+    position: relative;
+    bottom: 40px;
+    right: -40px;
+    cursor: pointer;
+    
+    
+}
+.div1{
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+    margin-top: 23px;
+    padding: 32px;
+    box-sizing:border-box ;
+    
+}

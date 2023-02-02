@@ -1,0 +1,34 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    text-transform:capitalize ;
+   
+    
+}
+p{
+    color: violet;
+    text-align:justify;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.3;
+    font-family: 'Open Sans', sans-serif;
+}
+#secondP{
+    /* border-top-style:solid;
+    border-right-style: dotted;
+    border-left-style: dashed;
+    border-bottom-style: double;
+    border-width: 6px;
+    border-color: red; */
+    border: 3px solid gray;
+    border-radius: 14px;
+    /* border-top: 4px solid blue;
+    border-right: 4px dashed blue;
+    border-left: 4px double red;
+    border-bottom: 4px dotted blue;*/ 
+     padding: 24px 20px 24px 20px; 
+     margin: 30px;
+}
